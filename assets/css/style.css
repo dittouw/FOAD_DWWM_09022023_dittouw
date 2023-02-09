@@ -1,0 +1,163 @@
+@font-face {
+    font-family: "montserrat";
+    src: url(../font/Montserrat-VariableFont_wght.ttf);
+  }
+  
+  * {
+    font-family: "montserrat";
+  }
+  body {
+    margin: 0;
+  }
+  nav {
+    /* background-color: rgb(236, 252, 236);
+    color: rgb(58, 57, 56);
+    border: 5px green solid;
+    border-radius: 5px; */
+    
+     /* border-radius: 50px 50px 50px 50px; */
+    /* -webkit-border-radius: 50px 50px 50px 50px; */
+    /* -moz-border-radius: 50px 50px 50px 50px;
+    box-shadow: 10px 10px 5px 0px rgba(242,172,229,0.75) inset;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(242,172,229,0.75) inset;
+  -moz-box-shadow: 10px 10px 5px 0px rgba(242,172,229,0.75) inset;
+    font-size: 0.9rem;
+    font-weight: bold;
+    font-family: "montserrat";
+    font-style: italic;
+    /* text-decoration: underline; */
+    letter-spacing: 0.1rem;
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+  }
+  
+  #brand {
+    padding-left: 0.5rem;
+  }
+  #menu {
+    display: flex;
+    list-style-type: none;
+  }
+  
+  #menu li {
+    /* background-color: red; */
+    padding: 0.5rem;
+    /* margin: .5rem; */
+  }
+  
+  #imgHeader {
+    background-image: url(../img/hamburger.jpg);
+    height: 75vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+  }
+  
+  h1 {
+    font-family: "montserrat";
+    font-style: normal;
+    letter-spacing: 0.1rem;
+    display: flex;
+    justify-content: space-between;
+    color: #555b73;
+    margin-left: 2rem;
+    font-weight: 100;
+    font-size: 1.5rem;
+    letter-spacing: 0.2rem;
+  }
+  
+  #about {
+    width: 65%;
+    /* border: 1px blue solid; */
+    margin: auto;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  .card {
+    width: 49%;
+    /* border: 1px red solid; */
+    /* margin: auto; */
+  }
+  .image {
+    width: 100%;
+  }
+  
+  #about h2 {
+    text-align: center;
+  }
+  
+  #about h3 {
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  
+  #our-menu {
+    width: 65%;
+    /* border: 1px blue solid; */
+    margin: auto;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+  
+  
+  .image {
+    width: 100%;
+  }
+  
+  .our {
+    text-align: left;
+  }
+  
+  .our {
+    text-align: left;
+    font-size: 1.2rem;
+  }
+  
+  #our-menu h2{
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  #our-menu h3{
+    font-size: 1.2rem;
+  }
+  #our-menu h4{
+    font-size: .8rem;
+  }
+  
+  #contact {
+    width: 65%;
+    margin: auto;
+    margin-top: 2rem;
+  }
+  #contact input{
+    width: 100%;
+    color: #555b73;
+    padding: 1rem .5rem;
+    border: none;
+    border-bottom: 1px #555b73 solid;
+    margin-bottom: 1rem;
+  }
+  #contact h4{
+  color: #59778F;
+  }
+  
+  #contact #send{
+    width:fit-content;
+    border-bottom: none;
+    color: black;
+    font-weight: bold;
+  }
+  footer{
+    background-color: black;
+    color: #555b73;
+    text-align: center;
+  }
+  
